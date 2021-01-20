@@ -40,6 +40,7 @@ public class ReceiptServlet extends HttpServlet {
 			double total = 0.0;
 			int i=0;
 			List<BookDTO> al=new ArrayList<BookDTO>();
+			al=dao.search();
 			for(BookDTO dto:al)
 			{
 				float bPrice = dto.getPrice();
