@@ -1,0 +1,32 @@
+.container-1{
+    padding-top: 30px;
+    margin: auto;
+    text-align: center;
+    width:70%;
+}
+.flex-box-rps{
+    display: flex;
+    padding: 30px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.flex-box-rps img:hover{
+    box-shadow: 0px 10px 50px rgba(37, 50,233, 1);
+}
+h2 {
+    display: block;
+    font-size: 30px;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    color: wheat;
+    font-weight: bold;
+  }
+#button{
+    text-align: center;
+    padding: 20px;
+}
+body{
+    background-image: url('../images/6.png');
+}
